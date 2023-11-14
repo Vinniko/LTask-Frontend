@@ -44,6 +44,7 @@
 
             <div class="row">
                 <v-textarea
+                        rows="1"
                         v-model="task.description"
                         :counter="256"
                         label="Описание"

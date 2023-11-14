@@ -12,4 +12,6 @@ Start local server
 
 ```bash
 npm run dev
+OR
+vue-cli-service serve
 ```
