@@ -8,9 +8,9 @@
 
         <div class="table">
             <div class="row">
-                <div class="column column-name">Название</div>
-                <div class="column column-status">Статус</div>
-                <div class="column column-is-open">Открыта</div>
+                <div class="column column-name header">Название</div>
+                <div class="column column-status header">Статус</div>
+                <div class="column column-is-open header">Открыта</div>
             </div>
 
             <router-link class="row" :to="{ name: 'task', params: { id: task.id }}" v-for="(task, index) in tasks" :key="index">
@@ -124,5 +124,9 @@
         text-align: center;
         text-decoration: none;
         color: black;
+    }
+
+    .header {
+        font-weight: bold;
     }
 </style>
