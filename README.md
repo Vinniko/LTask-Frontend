@@ -1,24 +1,15 @@
-# ltask-frontend
+## LTask Frontend (Vue 3 JS framework tasker view)
 
-## Project setup
-```
+## Installation
+
+Run npm install
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Start local server
 
-### Compiles and minifies for production
+```bash
+npm run dev
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
